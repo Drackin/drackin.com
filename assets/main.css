@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+:root {
+    background: #001728;
+    color: #fff;
+    /* background-image: url("/bg.webp");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center; */
+    font-family: 'Fira Code', monospace;
+}
+@media screen and (min-width: 768px) {
+    #main {
+        height: calc(100% - 7.5rem);
+    }
+}
