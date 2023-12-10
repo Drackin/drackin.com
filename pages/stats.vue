@@ -63,7 +63,7 @@
             </Suspense>
 
             <Suspense>
-                <div v-if="spoti.topAll?.tracks" class="shadow transition m-2 p-2 hover:-translate-y-1 flex flex-col justify-between items-center w-96 h-36 bg-white bg-opacity-10 rounded-xl">
+                <div v-if="spoti.topAll" class="shadow transition m-2 p-2 hover:-translate-y-1 flex flex-col justify-between items-center w-96 h-36 bg-white bg-opacity-10 rounded-xl">
                     <section class="w-full flex justify-between h-6">
                         <button class="h-full" @click="previousTrack">
                             <Icon name="mdi-light:chevron-left" class="w-6 h-6" />
@@ -104,7 +104,7 @@
 
 
             <Suspense>
-                <div v-if="spoti.topAll?.artists" class="shadow transition m-2 p-2 hover:-translate-y-1 flex flex-col justify-between items-center w-96 h-36 bg-white bg-opacity-10 rounded-xl">
+                <div v-if="spoti.topAll" class="shadow transition m-2 p-2 hover:-translate-y-1 flex flex-col justify-between items-center w-96 h-36 bg-white bg-opacity-10 rounded-xl">
                     <section class="w-full flex justify-between h-6">
                         <button class="h-full" @click="previousArtist">
                             <Icon name="mdi-light:chevron-left" class="w-6 h-6" />

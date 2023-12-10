@@ -20,11 +20,15 @@ export default defineNuxtConfig({
             meta: [
                 { name: "theme-color", content: "#3b82f6" },
                 { name: "author", content: "Drackin" },
-                { name: "description", content: "Hello! I'm Drackin. I'm a Developer & Violinist & Athlete. This is My Personal Website. I Love Coding." },
+                { name: "description", content: "Hello! I'm Drackin. I'm a developer, violinist, guitarist and athlete. This is my portfolio." },
                 { property: "og:title", content: "Drackin" },
                 { property: "og:site_name", content: "drackin.com" },
                 { property: "og:image", content: "/banner.png" },
-                { property: "og:description", content: "Hello! I'm Drackin. I'm a Developer & Violinist & Athlete. This is My Personal Website. I Love Coding." },
+                { property: "og:type", content: "website" },
+                { name: "twitter:card", content: "/banner.png" },
+                { name: "twitter:title", content: "Drackin" },
+                { name: "twitter:description", content: "Hello! I'm Drackin. I'm a developer, violinist, guitarist and athlete. This is my portfolio." },
+                { property: "og:description", content: "Hello! I'm Drackin. I'm a developer, violinist, guitarist and athlete. This is my portfolio." },
                 { name: "keywords", content: "Drackin, drackin, drackin best, Drackin Best, github drackin, ess, portfolio, developer, blog drackin, drackin blog, blog, ess web, drackin website, drackin site, drackin me, drackin.com" }
             ],
             htmlAttrs: {
