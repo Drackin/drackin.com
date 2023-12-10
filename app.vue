@@ -1,12 +1,12 @@
 <template>
-    <main class="wl h-screen flex justify-center items-center">
+    <main class="w-full h-screen flex justify-center items-center">
         <NuxtLoadingIndicator
             :throttle="0"
             :duration="3000"
             color="repeating-linear-gradient(to right, #3b82f6 0%, #ec4899 50%, #a855f7 100%)"
         />
         <div class="w-[100vh] md:w-full rotate-90 fixed md:rotate-0 -z-1">
-            <img src="/bg.svg" class="w-full blur-[100px] md:blur-[175px]" alt="">
+            <img src="/bg.svg" class="w-full blur-[75px] md:blur-[175px]" alt="">
         </div>
         <div class="w-full h-full">
             <Navbar />

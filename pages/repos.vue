@@ -28,9 +28,9 @@
                 <header
                     class="bg-white bg-opacity-10 w-3/4 h-full text-sm p-3 items-center justify-center rounded-tr-md rounded-br-md"
                 >
-                    <p class="text-lg">{{ repo.full_name }}</p>
+                    <p class="text-lg line-clamp-1 break-words">{{ repo.full_name }}</p>
 
-                    <p class="text-sm">{{ repo.description }}</p>
+                    <p class="text-sm line-clamp-4 break-words">{{ repo.description }}</p>
                 </header>
             </a>
         </section>

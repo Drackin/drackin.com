@@ -3,6 +3,11 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     modules: ["@unocss/nuxt", "nuxt-icon", "@nuxt/image", "@pinia/nuxt"],
     css: ["@unocss/reset/tailwind.css", "~/assets/main.css"],
+    image: {
+        ipx: {
+            maxAge: 60 * 60 * 1000
+        }
+    },
     app: {
         head: {
             title: "Drackin",

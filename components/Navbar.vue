@@ -1,5 +1,5 @@
 <template>
-    <nav class="w-full h-10 border-b border-gray-800 flex items-center justify-between text-[#607B96] z-50">
+    <nav class="w-full h-10 border-b border-gray-800 flex items-center justify-between text-[#607B96] z-50 relative">
         <div class="flex items-center text-sm h-full">
             <NuxtLink
                 href="/"
@@ -41,7 +41,7 @@
             <Icon :name="!menuOpen ? 'solar:hamburger-menu-linear' : 'uil:times'" class="text-2xl" />
         </button>
 
-        <nav ref="mobileNav" class="hidden fixed top-10 right-0 w-full backdrop-blur-xl z-50" style="height: calc(100vh - 2.5rem);">
+        <nav ref="mobileNav" class="hidden absolute top-10 right-0 w-full backdrop-blur-xl z-50" style="height: calc(100vh - 2.5rem);">
             <div class="w-full h-full flex flex-col justify-between">
                 <main class="flex flex-col text-base w-full text-white justify-between">
                     <NuxtLink
