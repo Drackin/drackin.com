@@ -15,8 +15,7 @@
                         <p class="text-blue-400 text-2xl">> $ whoami</p>
 
                         <p class="text-sm">
-                            I'm 17 years old and I'm a Full-Stack Developer. I am a high school
-                            student and I live in Izmir/Turkey. My hobbies are playing violin and guitar, sports and programming.
+                            I'm 19 years old and I'm a Full-Stack Developer. I live in Izmir/Turkey. My hobbies are playing violin and guitar, sports and programming.
                         </p>
                     </main>
 
